@@ -1,0 +1,20 @@
+{
+    "name": "interlutions/static-code-analysis-tools",
+    "type": "library",
+    "description": "Internal PHP static code analysis tools of Interlutions",
+    "keywords": ["static code analysis tools", "phpstan", "phplint", "phpmd", "phpcpd"],
+    "homepage": "https://www.interlutions.de/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Interlutions Team",
+            "homepage": "https://www.interlutions.de/agentur"
+        }
+    ],
+    "require": {
+        "overtrue/phplint": "^1.1",
+        "phpmd/phpmd": "^2.6",
+        "phpstan/phpstan": "^0.10",
+        "sebastian/phpcpd": "^4.1"
+    }
+}
